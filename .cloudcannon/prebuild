@@ -1,4 +1,4 @@
-#curl -o godot_content.zip https://nightly.link/godotengine/godot-docs/workflows/build_offline_docs/master/godot-docs-html-master.zip
+curl -o godot_content.zip https://nightly.link/godotengine/godot-docs/workflows/build_offline_docs/master/godot-docs-html-master.zip
 
 unzip godot_content.zip -d godot_content
 npx -y pagefind@beta
