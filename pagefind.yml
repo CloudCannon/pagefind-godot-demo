@@ -1,0 +1,9 @@
+site: godot_content
+output_path: site/pagefind
+force_language: en-us
+root_selector: ".document[role='main']"
+exclude_selectors: 
+  # Removes the "Attention: Here be dragons" CTA
+  - .latest-notice
+  # Remove the lil ¶ after heading links
+  - .headerlink
