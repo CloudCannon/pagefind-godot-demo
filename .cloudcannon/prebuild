@@ -3,5 +3,5 @@ curl -L -o godot_content.zip https://nightly.link/godotengine/godot-docs/workflo
 unzip godot_content.zip -d godot_content
 npx -y pagefind@1
 
-today=$(date '+%B %dth, %Y')
+today=$(date '+%B %d, %Y')
 sed -i "s/CURRENT_DATE/$today/g" site/index.html
